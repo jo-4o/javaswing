@@ -1,0 +1,12 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Logs
+*.log
+
+# Eclipse
+.classpath
+.project
+.settings/
