@@ -1,35 +1,32 @@
-```markdown
-# 💻 HotelariaDB
+# sistema de gerenciamento de hotel
 
-Um sistema direto e funcional para gerenciamento de hotelaria. Sem firulas, apenas o que importa.
+sistema de gerenciamento de hotel desenvolvido em java swing com persistencia em banco de dados
 
-## 📌 Sobre o Projeto
+## requisitos
 
-Este projeto foi desenvolvido para gerenciar informações de clientes, quartos e reservas. É simples, modular e eficiente. Se você está procurando algo complexo ou cheio de "features" desnecessárias, procure outro lugar.
+- java 17 ou superior
+- maven 3.6 ou superior
 
-### Funcionalidades:
-- Cadastro e listagem de clientes.
-- Gerenciamento de quartos.
-- Criação e consulta de reservas.
 
-## 🛠️ Tecnologias
+## compilacao
 
-- **Java**: Porque funciona.
-- **PostgreSQL**: Banco de dados relacional sólido.
-- **JPA**: Para quem não quer lidar com SQL puro o tempo todo.
+```bash
+# na raiz do projeto
+mvn clean install
+```
 
-## 🚀 Objetivo
+## execucao
 
-Este projeto não é sobre reinventar a roda. É sobre fazer o básico bem feito:
-- Aplicar conceitos de programação modular.
-- Conectar Java a um banco de dados relacional.
-- Manipular dados de forma eficiente.
+```bash
+# na raiz do projeto
+java -jar target/hotel-1.0-SNAPSHOT.jar
+```
 
-## 👨‍💻 Autores
+## funcionalidades
 
-- [João](https://github.com/jo-4o)
-
----
-
-Se você chegou até aqui, parabéns. Agora vá rodar o projeto.
+- cadastro, edicao e exclusao de clientes
+- cadastro, edicao e exclusao de quartos
+- cadastro, edicao e exclusao de reservas
+- consultas por cliente, quarto e periodo
+- estatisticas de reservas (total e valor medio)
 ```
